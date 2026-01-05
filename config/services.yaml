@@ -11,6 +11,7 @@
             type: romm
             url: http://10.0.10.4:80
             fields: ["platforms", "totalRoms", "saves", "states"] # optional - default fields shown
+        
     - mealie:
         icon: mealie
         href: http://10.0.10.4:9925/login
@@ -36,4 +37,4 @@
             username: reckless.sr@gmail.com # email
             password: gD7gWzWre2gf
             systemId: systemId # optional
-            version: 1 # optional, default is 1
+            version: 2 # optional, default is 1
