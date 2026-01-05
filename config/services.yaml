@@ -4,8 +4,13 @@
 
 - Dockerized Apps:
     - romm:
+        icon: romm
         href: http://10.0.10.4:80
         description: Video Game Emulation
+        widget:
+            type: romm
+            url: http://10.0.10.4:80
+            fields: ["platforms", "totalRoms", "saves", "states"] # optional - default fields shown
     - mealie:
         icon: mealie
         href: http://10.0.10.4:9925/login
