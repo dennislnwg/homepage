@@ -34,7 +34,7 @@
         widget:
             type: beszel
             url: http://10.0.10.5:8090/
-            username: dennis@hivelab.com
-            password: luckygoldfish
+            username: reckless.sr@gmail.com
+            password: gD7gWzWre2gf
             systemId: systemId # optional
             version: 2 # optional, default is 1
