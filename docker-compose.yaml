@@ -9,3 +9,15 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock:ro # (optional) For docker integrations
     environment:
       HOMEPAGE_ALLOWED_HOSTS: gethomepage.dev,100.71.238.30:3000,10.0.10.4:3000 # required, may need port. See gethomepage.dev/installation/#homepage_allowed_hosts
+      # API Keys from environment variables
+      HOMEPAGE_VAR_OPENWEATHER_API_KEY: ${OPENWEATHER_API_KEY}
+      HOMEPAGE_VAR_WEATHER_API_KEY: ${WEATHER_API_KEY}
+      # Mealie API Key
+      HOMEPAGE_VAR_MEALIE_API_KEY: ${MEALIE_API_KEY}
+      # Beszel credentials
+      HOMEPAGE_VAR_BESZEL_USERNAME: ${BESZEL_USERNAME}
+      HOMEPAGE_VAR_BESZEL_PASSWORD: ${BESZEL_PASSWORD}
+      # You can add more environment variables as needed
+      # HOMEPAGE_VAR_CUSTOM_VAR: ${CUSTOM_VAR}
+    env_file:
+      - .env # Optional: Load variables from .env file
