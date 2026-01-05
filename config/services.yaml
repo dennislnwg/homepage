@@ -19,7 +19,7 @@
         widget:
             type: mealie
             url: http://10.0.10.4:9925
-            key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb25nX3Rva2VuIjp0cnVlLCJpZCI6IjQyYmNiMjdkLTgxMzgtNDc5Yy05MTdmLTBiMTVlZjZlZTUyZCIsIm5hbWUiOiJIb21lcGFnZSIsImludGVncmF0aW9uX2lkIjoiZ2VuZXJpYyIsImV4cCI6MTkyNTI3MTY4NH0.-QeD9qu3aI2HRaKP0HisZLZot5o3sieDTAWc-AQ3VME
+            key: {{HOMEPAGE_VAR_MEALIE_API_KEY}}
             version: 2 # only required if version > 1, defaults to 1
 
 #- My Second Group:
@@ -35,6 +35,6 @@
         widget:
             type: beszel
             url: http://10.0.10.5:8090
-            username: reckless.sr@gmail.com
-            password: gD7gWzWre2gf
+            username: {{HOMEPAGE_VAR_BESZEL_USERNAME}}
+            password: {{HOMEPAGE_VAR_BESZEL_PASSWORD}}
             version: 2 # optional, default is 1
