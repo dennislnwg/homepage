@@ -19,7 +19,7 @@
         widget:
             type: mealie
             url: http://10.0.10.4:9925
-            key: {{HOMEPAGE_VAR_MEALIE_API_KEY}}
+            key: ${MEALIE_API_KEY}
             version: 2 # only required if version > 1, defaults to 1
 
 #- My Second Group:
@@ -28,15 +28,6 @@
 #        description: Homepage is the best
 
 - Monitoring:
-    - Test:
-        - Test Service 1:
-            description: Testing env var 1 - {{HOMEPAGE_VAR_MEALIE_API_KEY}}
-        - Test Service 2:
-            description: Testing env var 2 - $MEALIE_API_KEY
-        - Test Service 3:
-            description: Testing env var 3 - ${MEALIE_API_KEY}
-        - Test Service 4:
-            description: Testing env var 4 - {{MEALIE_API_KEY}}
     - beszel:
         icon: beszel
         href: http://10.0.10.5:8090
@@ -44,6 +35,6 @@
         widget:
             type: beszel
             url: http://10.0.10.5:8090
-            username: {{HOMEPAGE_VAR_BESZEL_USERNAME}}
-            password: {{HOMEPAGE_VAR_BESZEL_PASSWORD}}
+            username: ${BESZEL_USERNAME}
+            password: ${BESZEL_PASSWORD}
             version: 2 # optional, default is 1
