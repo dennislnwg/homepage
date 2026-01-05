@@ -7,6 +7,7 @@
         href: http://10.0.10.4:80
         description: Video Game Emulation
     - mealie:
+        icon: mealie
         href: http://10.0.10.4:9925/login
         description: Recipe Repository
         widget:
