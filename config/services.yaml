@@ -16,6 +16,11 @@
         icon: mealie
         href: http://10.0.10.4:9925/login
         description: Recipe Repository
+        widget:
+            type: mealie
+            url: http://10.0.10.4:9925/login
+            key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb25nX3Rva2VuIjp0cnVlLCJpZCI6IjQyYmNiMjdkLTgxMzgtNDc5Yy05MTdmLTBiMTVlZjZlZTUyZCIsIm5hbWUiOiJob21lcGFnZSIsImludGVncmF0aW9uX2lkIjoiZ2VuZXJpYyIsImV4cCI6MTkyNTMyNzE0NH0.uJBVqiE8aA7qE3Hoh_vrcq7RCmiF8JhGJsMTE5Ji20Q
+            version: 2 # only required if version > 1, defaults to 1
 
 #- My Second Group:
 #    - My Second Service:
