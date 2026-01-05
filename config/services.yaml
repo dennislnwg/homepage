@@ -9,6 +9,11 @@
     - mealie:
         href: http://10.0.10.4:9925/login
         description: Recipe Repository
+        widget:
+            type: mealie
+            url: http://10.0.10.4:9925
+            key: ${MEALIE_TOKEN}
+            version: 2 # only required if version > 1, defaults to 1
 
 - My Second Group:
     - My Second Service:
