@@ -5,3 +5,7 @@
 providers:
   openweathermap: openweathermapapikey
   weatherapi: weatherapiapikey
+  mealie: ${MEALIE_API_KEY}
+  beszel:
+    username: ${BESZEL_USERNAME}
+    password: ${BESZEL_PASSWORD}

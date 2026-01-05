@@ -19,7 +19,7 @@
         widget:
             type: mealie
             url: http://10.0.10.4:9925
-            key: ${MEALIE_API_KEY}
+            provider: mealie
             version: 2 # only required if version > 1, defaults to 1
 
 #- My Second Group:
@@ -35,6 +35,5 @@
         widget:
             type: beszel
             url: http://10.0.10.5:8090
-            username: ${BESZEL_USERNAME}
-            password: ${BESZEL_PASSWORD}
+            provider: beszel
             version: 2 # optional, default is 1
