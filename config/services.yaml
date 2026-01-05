@@ -28,6 +28,9 @@
 #        description: Homepage is the best
 
 - Monitoring:
+    - Test:
+        - Test Service:
+            description: Testing env var - {{HOMEPAGE_VAR_MEALIE_API_KEY}}
     - beszel:
         icon: beszel
         href: http://10.0.10.5:8090
