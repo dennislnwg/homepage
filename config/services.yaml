@@ -2,10 +2,13 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/services/
 
-- My First Group:
-    - My First Service:
-        href: http://localhost/
-        description: Homepage is awesome
+- Dockerized Apps:
+    - romm:
+        href: http://10.0.10.4:80
+        description: Video Game Emulation
+    - mealie:
+        href: http://10.0.10.4:9925/login
+        description: Recipe Repository
 
 - My Second Group:
     - My Second Service:
