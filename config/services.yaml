@@ -29,8 +29,14 @@
 
 - Monitoring:
     - Test:
-        - Test Service:
-            description: Testing env var - {{HOMEPAGE_VAR_MEALIE_API_KEY}}
+        - Test Service 1:
+            description: Testing env var 1 - {{HOMEPAGE_VAR_MEALIE_API_KEY}}
+        - Test Service 2:
+            description: Testing env var 2 - $MEALIE_API_KEY
+        - Test Service 3:
+            description: Testing env var 3 - ${MEALIE_API_KEY}
+        - Test Service 4:
+            description: Testing env var 4 - {{MEALIE_API_KEY}}
     - beszel:
         icon: beszel
         href: http://10.0.10.5:8090
