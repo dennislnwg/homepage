@@ -9,6 +9,3 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock:ro # (optional) For docker integrations
     environment:
       HOMEPAGE_ALLOWED_HOSTS: gethomepage.dev,100.71.238.30:3000,10.0.10.4:3000 # required, may need port. See gethomepage.dev/installation/#homepage_allowed_hosts
-      MEALIE_API_KEY: ${MEALIE_API_KEY}
-      BESZEL_USERNAME: ${BESZEL_USERNAME}
-      BESZEL_PASSWORD: ${BESZEL_PASSWORD}
