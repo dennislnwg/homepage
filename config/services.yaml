@@ -22,10 +22,10 @@
             key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb25nX3Rva2VuIjp0cnVlLCJpZCI6IjQyYmNiMjdkLTgxMzgtNDc5Yy05MTdmLTBiMTVlZjZlZTUyZCIsIm5hbWUiOiJIb21lcGFnZSIsImludGVncmF0aW9uX2lkIjoiZ2VuZXJpYyIsImV4cCI6MTkyNTI3MTY4NH0.-QeD9qu3aI2HRaKP0HisZLZot5o3sieDTAWc-AQ3VME
             version: 2 # only required if version > 1, defaults to 1
 
-- My Second Group:
-    - My Second Service:
-        href: http://localhost/
-        description: Homepage is the best
+#- My Second Group:
+#    - My Second Service:
+#        href: http://localhost/
+#        description: Homepage is the best
 
 - Monitoring:
     - beszel:
