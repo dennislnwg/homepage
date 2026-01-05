@@ -27,10 +27,13 @@
         description: Homepage is the best
 
 - Monitoring:
-    - widget:
-        type: beszel
-        url: http://10.0.10.5:8090/
-        username: reckless.sr@gmail.com # email
-        password: gD7gWzWre2gf
-        systemId: #systemId # optional
-        version: 2 # optional, default is 1
+    - beszel:
+        href: http://10.0.10.5:8090/
+        description: monitoring
+        widget:
+            type: beszel
+            url: http://10.0.10.5:8090/
+            username: reckless.sr@gmail.com # email
+            password: gD7gWzWre2gf
+            systemId: systemId # optional
+            version: 2 # optional, default is 1
