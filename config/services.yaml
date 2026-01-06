@@ -11,13 +11,13 @@
            - type: romm
              url: http://10.0.10.4:80
              fields: ["platforms", "totalRoms", "saves", "states"] # optional - default fields shown
-           - type: beszel
-             url: http://10.0.10.5:8090
-             username: {{HOMEPAGE_VAR_BESZEL_USERNAME}}
-             password: {{HOMEPAGE_VAR_BESZEL_PASSWORD}}
-             systemId: d9n0uek5p1mtuq5
-             version: 2 # optional, default is 1
-             fields: ["name", "status", "updated", "cpu", "memory", "disk", "network"]
+           #- type: beszel
+            # url: http://10.0.10.5:8090
+             #username: {{HOMEPAGE_VAR_BESZEL_USERNAME}}
+             #password: {{HOMEPAGE_VAR_BESZEL_PASSWORD}}
+             #systemId: d9n0uek5p1mtuq5
+             #version: 2 # optional, default is 1
+             #fields: ["name", "status", "updated", "cpu", "memory", "disk", "network"]
     - mealie:
         icon: mealie
         href: http://10.0.10.4:9925
