@@ -15,8 +15,9 @@
              url: http://10.0.10.5:8090
              username: {{HOMEPAGE_VAR_BESZEL_USERNAME}}
              password: {{HOMEPAGE_VAR_BESZEL_PASSWORD}}
-             systemId: romm
+             systemId: d1ddc471b3f1
              version: 2 # optional, default is 1
+             fields: ["name", "status", "updated", "cpu", "memory", "disk", "network"]
     - mealie:
         icon: mealie
         href: http://10.0.10.4:9925
