@@ -17,6 +17,9 @@ services:
       # Beszel credentials
       HOMEPAGE_VAR_BESZEL_USERNAME: ${BESZEL_USERNAME}
       HOMEPAGE_VAR_BESZEL_PASSWORD: ${BESZEL_PASSWORD}
+      #Synology DiskStation Credentials
+      HOMEPAGE_VAR_SYNOLOGY_USERNAME: ${SYNOLOGY_USERNAME}
+      HOMEPAGE_VAR_SYNOLOGY_PASSWORD: ${SYNOLOGY_PASSWORD} 
       # You can add more environment variables as needed
       # HOMEPAGE_VAR_CUSTOM_VAR: ${CUSTOM_VAR}
     env_file:
