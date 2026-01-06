@@ -8,9 +8,15 @@
         href: http://10.0.10.4:80
         description: Video Game Emulation
         widget:
-            type: romm
-            url: http://10.0.10.4:80
-            fields: ["platforms", "totalRoms", "saves", "states"] # optional - default fields shown
+           - type: romm
+             url: http://10.0.10.4:80
+             fields: ["platforms", "totalRoms", "saves", "states"] # optional - default fields shown
+           - type: beszel
+             url: http://10.0.10.5:8090
+             username: {{HOMEPAGE_VAR_BESZEL_USERNAME}}
+             password: {{HOMEPAGE_VAR_BESZEL_PASSWORD}}
+             systemID: d1ddc471b3f1
+             version: 2 # optional, default is 1
     - mealie:
         icon: mealie
         href: http://10.0.10.4:9925
