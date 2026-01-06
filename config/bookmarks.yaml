@@ -23,7 +23,7 @@
 - Productivity:
     - Google Calendar:
         - abbr: GCAL
-          icon: googlecalendar
+          icon: google-calendar
           href: https://calendar.google.com/calendar/u/0/r
     - Gmail:
         - abbr: GM
