@@ -9,6 +9,11 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock:ro # (optional) For docker integrations
     environment:
       HOMEPAGE_ALLOWED_HOSTS: gethomepage.dev,100.71.238.30:3000,10.0.10.4:3000 # required, may need port. See gethomepage.dev/installation/#homepage_allowed_hosts
+      MEALIE_API_KEY: ${MEALIE_API_KEY}
+      BESZEL_USERNAME: ${BESZEL_USERNAME}
+      BESZEL_PASSWORD: ${BESZEL_PASSWORD}
+      SYNOLOGY_USERNAME: ${SYNOLOGY_USERNAME}
+      SYNOLOGY_PASSWORD: ${SYNOLOGY_PASSWORD}
       # API Keys from environment variables
       HOMEPAGE_VAR_OPENWEATHER_API_KEY: ${OPENWEATHER_API_KEY}
       HOMEPAGE_VAR_WEATHER_API_KEY: ${WEATHER_API_KEY}
@@ -19,7 +24,9 @@ services:
       HOMEPAGE_VAR_BESZEL_PASSWORD: ${BESZEL_PASSWORD}
       #Synology DiskStation Credentials
       HOMEPAGE_VAR_SYNOLOGY_USERNAME: ${SYNOLOGY_USERNAME}
-      HOMEPAGE_VAR_SYNOLOGY_PASSWORD: ${SYNOLOGY_PASSWORD} 
+      HOMEPAGE_VAR_SYNOLOGY_PASSWORD: ${SYNOLOGY_PASSWORD}
+      #Radarr api key
+      HOMEPAGE_VAR_RADARR_API_KEY: ${RADARR_API_KEY} 
       # You can add more environment variables as needed
       # HOMEPAGE_VAR_CUSTOM_VAR: ${CUSTOM_VAR}
     env_file:

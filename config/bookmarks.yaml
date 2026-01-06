@@ -15,6 +15,10 @@
           href: https://reddit.com/
 
 - Entertainment:
+    - Plex:
+        - abbr: Pl
+          icon: Plex
+          href: https://app.plex.tv/desktop/#!
     - YouTube:
         - abbr: YT
           icon: youtube

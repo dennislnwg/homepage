@@ -48,3 +48,14 @@
             username: {{HOMEPAGE_VAR_SYNOLOGY_USERNAME}}
             password: {{HOMEPAGE_VAR_SYNOLOGY_PASSWORD}}
             volume: volume_1 # optional
+
+- Daiimus's Services:
+    - radarr:
+        icon: radarr
+        href: http://100.100.192.19:7878/
+        description: arr movies
+        widget:
+            type: radarr
+            url: http://100.100.192.19:7878/
+            key: {{HOMEPAGE_VAR_RADARR_API_KEY}}
+            enableQueue: true # optional, defaults to false
