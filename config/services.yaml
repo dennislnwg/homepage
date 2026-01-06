@@ -15,7 +15,7 @@
              url: http://10.0.10.5:8090
              username: {{HOMEPAGE_VAR_BESZEL_USERNAME}}
              password: {{HOMEPAGE_VAR_BESZEL_PASSWORD}}
-             systemId: d1ddc471b3f1
+             systemId: d9n0uek5p1mtuq5
              version: 2 # optional, default is 1
              fields: ["name", "status", "updated", "cpu", "memory", "disk", "network"]
     - mealie:
