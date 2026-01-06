@@ -19,3 +19,13 @@
         - abbr: YT
           icon: youtube
           href: https://youtube.com/
+
+- Productivity:
+    - Google Calendar:
+        - abbr: GCAL
+          icon: google Calendar
+          href: https://calendar.google.com/calendar/u/0/r
+    - Gmail:
+        - abbr: GM
+          icon: gmail
+          href: https://mail.google.com/mail/u/0/#inbox
