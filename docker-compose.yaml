@@ -27,6 +27,8 @@ services:
       HOMEPAGE_VAR_SYNOLOGY_PASSWORD: ${SYNOLOGY_PASSWORD}
       #Radarr api key
       HOMEPAGE_VAR_RADARR_API_KEY: ${RADARR_API_KEY} 
+      #Sonarr API key
+      HOMEPAGE_VAR_SONARR_API_KEY: ${SONARR_API_KEY} 
       # You can add more environment variables as needed
       # HOMEPAGE_VAR_CUSTOM_VAR: ${CUSTOM_VAR}
     env_file:

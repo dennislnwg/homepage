@@ -58,4 +58,14 @@
             type: radarr
             url: http://100.100.192.19:7878/
             key: {{HOMEPAGE_VAR_RADARR_API_KEY}}
-            enableQueue: true # optional, defaults to false
+            enableQueue: false # optional, defaults to false
+    - sonarr:
+        icon: sonarr
+        href: http://100.100.192.19:8989/
+        description: arr movies
+        widget:
+            type: sonarr
+            url: http://100.100.192.19:8989/
+            key: {{HOMEPAGE_VAR_SONARR_API_KEY}}
+            enableQueue: false # optional, defaults to false
+       
