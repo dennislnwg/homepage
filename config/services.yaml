@@ -38,3 +38,13 @@
             username: {{HOMEPAGE_VAR_BESZEL_USERNAME}}
             password: {{HOMEPAGE_VAR_BESZEL_PASSWORD}}
             version: 2 # optional, default is 1
+    - synology diskstation:
+        icon: synology
+        href: http://10.0.10.3:5000
+        description: Network Attached Storage        
+        widget:
+            type: diskstation
+            url: http://10.0.10.3:5000
+            username: {{HOMEPAGE_VAR_SYNOLOGY_USERNAME}}
+            password: {{HOMEPAGE_VAR_SYNOLOGY_PASSWORD}}
+            volume: volume_1 # optional
