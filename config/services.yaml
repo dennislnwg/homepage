@@ -28,23 +28,12 @@
             key: {{HOMEPAGE_VAR_MEALIE_API_KEY}}
             version: 2 # only required if version > 1, defaults to 1
 
-#- My Second Group:
-#    - My Second Service:
-#        href: http://localhost/
-#        description: Homepage is the best
-
-- Monitoring:
-    - beszel:
-        icon: beszel
-        href: http://10.0.10.5:8090
-        description: monitoring
-        widget:
-            type: beszel
-            url: http://10.0.10.5:8090
-            username: {{HOMEPAGE_VAR_BESZEL_USERNAME}}
-            password: {{HOMEPAGE_VAR_BESZEL_PASSWORD}}
-            version: 2 # optional, default is 1
-    - synology diskstation:
+- Infra:
+    - Proxmox:
+        icon: proxmox
+        href: https://10.0.10.6:8006
+        description: Hypervisor
+    - Synology Diskstation:
         icon: synology
         href: http://10.0.10.3:5000
         description: Network Attached Storage        
@@ -54,6 +43,23 @@
             username: {{HOMEPAGE_VAR_SYNOLOGY_USERNAME}}
             password: {{HOMEPAGE_VAR_SYNOLOGY_PASSWORD}}
             volume: volume_1 # optional
+    - PFsense:
+        icon: pfsense
+        href: https://10.0.1.1/
+        description: Edge Firewall
+
+- Monitoring:
+    - Beszel:
+        icon: beszel
+        href: http://10.0.10.5:8090
+        description: lab monitoring
+        widget:
+            type: beszel
+            url: http://10.0.10.5:8090
+            username: {{HOMEPAGE_VAR_BESZEL_USERNAME}}
+            password: {{HOMEPAGE_VAR_BESZEL_PASSWORD}}
+            version: 2 # optional, default is 1
+
 
 - Daiimus's Services:
     - radarr:
