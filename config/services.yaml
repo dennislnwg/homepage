@@ -7,7 +7,7 @@
         icon: romm
         href: http://10.0.10.4:80
         description: Video Game Emulation
-        widget:
+        widgets:
            - type: romm
              url: http://10.0.10.4:80
              fields: ["platforms", "totalRoms", "saves", "states"] # optional - default fields shown
