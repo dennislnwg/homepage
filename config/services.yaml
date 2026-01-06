@@ -67,5 +67,5 @@
             type: sonarr
             url: http://100.100.192.19:8989/
             key: {{HOMEPAGE_VAR_SONARR_API_KEY}}
-            enableQueue: true # optional, defaults to false
+            enableQueue: false # optional, defaults to false
        
