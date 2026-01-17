@@ -33,3 +33,9 @@
         - abbr: GM
           icon: gmail
           href: https://mail.google.com/mail/u/0/#inbox
+- Health: 
+    - Therapy:
+        - abbr: TH
+          icon: zoom
+          href: https://us02web.zoom.us/j/7591338701?pwd=NFlhVTI1OTczbXZWa3JiY2FHRWFuZz09
+        
