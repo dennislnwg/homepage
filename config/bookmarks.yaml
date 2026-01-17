@@ -8,11 +8,15 @@
           icon: github
           href: https://github.com/
 
-- Social:
+- Feeds:
     - Reddit:
         - abbr: RE
           icon: reddit
           href: https://reddit.com/
+    - Hacker News:
+        - abbr: HN
+          icon: hacker-news
+          href: https://news.ycombinator.com/
 
 - Entertainment:
     - Plex:
