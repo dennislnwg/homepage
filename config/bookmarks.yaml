@@ -43,3 +43,13 @@
           icon: zoom
           href: https://us02web.zoom.us/j/7591338701?pwd=NFlhVTI1OTczbXZWa3JiY2FHRWFuZz09
         
+
+- News:
+    - Newsmap:
+        - abbr: NM
+          icon: newspaper
+          href: https://newsmap.ijmacd.com/?edition=US_en
+    - Yahoo Finance:
+        - abbr: YF
+          icon: yahoo-finance
+          href: https://finance.yahoo.com/
