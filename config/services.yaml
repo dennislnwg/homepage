@@ -84,8 +84,14 @@
             url: http://100.100.192.19:8989/
             key: {{HOMEPAGE_VAR_SONARR_API_KEY}}
             enableQueue: false # optional, defaults to false
-    - Apollo NAS:
+    - Narcissus NAS:
         icon: synology
         href: http://100.116.95.27:5000/
-        description: Apollo Synology Diskstation
+        description: Narcissus Synology Diskstation
+
+    - Orpheus NAS:
+        icon: unifi
+        href: https://unifi.ui.com
+        description: Oprheus NAS Unifi Controller
+       
        
