@@ -34,7 +34,7 @@
         widget:
             type: paperlessngx
             url: http://10.0.10.4:8000
-            token: {{HOMEPAGE_VAR_PAPERLESS_API_TOKEN}}
+            key: {{HOMEPAGE_VAR_PAPERLESS_API_TOKEN}}
             fields: ["total", "inbox"]
 
 - Infra:
