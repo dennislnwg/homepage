@@ -25,8 +25,8 @@ services:
       #Synology DiskStation Credentials
       HOMEPAGE_VAR_SYNOLOGY_USERNAME: ${SYNOLOGY_USERNAME}
       HOMEPAGE_VAR_SYNOLOGY_PASSWORD: ${SYNOLOGY_PASSWORD}
-      #Paperless API Token
-      HOMEPAGE_VAR_PAPERLESS_API_TOKEN: ${PAPERLESS_API_KEY}
+      #Paperless API Key
+      HOMEPAGE_VAR_PAPERLESS_API_KEY: ${PAPERLESS_API_KEY}
       #Radarr api key
       HOMEPAGE_VAR_RADARR_API_KEY: ${RADARR_API_KEY} 
       #Sonarr API key
