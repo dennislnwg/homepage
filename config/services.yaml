@@ -35,6 +35,7 @@
             type: paperless
             url: http://10.0.10.4:8000
             token: {{HOMEPAGE_VAR_PAPERLESS_API_TOKEN}}
+            fields: ["total", "inbox"]
 
 - Infra:
     - Proxmox:
