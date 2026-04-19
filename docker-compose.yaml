@@ -1,5 +1,6 @@
 services:
   homepage:
+    user: "1000:1000" # optional, set to your user id for proper permissions on config files
     image: ghcr.io/gethomepage/homepage:latest
     container_name: homepage
     restart: unless-stopped
