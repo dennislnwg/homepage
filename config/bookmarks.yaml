@@ -37,6 +37,10 @@
         - abbr: GM
           icon: gmail
           href: https://mail.google.com/mail/u/0/#inbox
+    - Trello:
+        - abbr: T
+          icon: Trello
+          href: https://trello.com/u/dennislnwg/boards
 - Health: 
     - Therapy:
         - abbr: TH
