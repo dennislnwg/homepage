@@ -36,6 +36,16 @@
             url: http://10.0.10.4:8000
             key: {{HOMEPAGE_VAR_PAPERLESS_API_KEY}}
             fields: ["total", "inbox"]
+    - photoprism:
+        icon: photoprism
+        href: http://10.0.10.4:2342
+        description: AI-Powered Photo Management
+        widget:
+            type: photoprism
+            url: http://10.0.10.4:2342
+            username: {{HOMEPAGE_VAR_PHOTOPRISM_USERNAME}}
+            password: {{HOMEPAGE_VAR_PHOTOPRISM_PASSWORD}}
+            fields: ["albums", "photos", "videos", "people"]
 
 - Infra:
     - Proxmox:
